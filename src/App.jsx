@@ -4,7 +4,7 @@ import TaskSection from "./component/TaskSection";
 function App() {
   return (
     <>
-      <div className="mx-[20%] ">
+      <div className="mx-[20%] max-w-6xl">
         <div >
           <HeroSection></HeroSection>
         </div>
