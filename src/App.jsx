@@ -1,17 +1,19 @@
-import HeroSection from "./component/HeroSection"
-import TaskSection from "./component/TaskSection"
+import HeroSection from "./component/HeroSection";
+import TaskSection from "./component/TaskSection";
 
 function App() {
- 
-
   return (
     <>
-    <div>
-      <HeroSection></HeroSection>
-      <TaskSection></TaskSection>
-    </div>
+      <div className="mx-[20%] ">
+        <div >
+          <HeroSection></HeroSection>
+        </div>
+        <div className="mb-[10%]">
+          <TaskSection></TaskSection>
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
