@@ -167,8 +167,8 @@ export default function HeroSection() {
   return (
     <>
       <div className="flex column justify-center align-middle">
-        <div className="w-[940px] " >
-          <div className="pt-[30px] gap-[10px] flex mt-[50px] lg:mt-[120px]  justify-center">
+        <div className="w-[450px] lg:w-[940px] " >
+          <div className="pt-[30px] gap-[10px] flex   justify-center">
             <button className={`p-[8px_16px] border rounded-full text-base  ${mode === 'focus' ? 'bg-[#0079F9] border-[#3182CE] text-[#CBD5E0]' : 'border-[#FFFFFF3D] text-[#CBD5E0] hover:bg-[#202020]'}`} onClick={handleFocusClick} >Focus mode </button>
             <button className={`p-[8px_16px] border rounded-full text-base ${mode === 'shortBreak' ? 'bg-[#0079F9] border-[#3182CE] text-[#CBD5E0]' : 'border-[#FFFFFF3D] text-[#CBD5E0] hover:bg-[#202020]'}`} onClick={handleShortBreakClick}>Short break </button>
             <button className={`p-[8px_16px] border rounded-full text-base ${mode === 'longBreak' ? 'bg-[#0079F9] border-[#3182CE] text-[#CBD5E0]' : 'border-[#FFFFFF3D] text-[#CBD5E0] hover:bg-[#202020]'}`} onClick={handleLongBreakClick}>Long break </button>
@@ -402,7 +402,7 @@ export default function HeroSection() {
               </button>
             </div>
 
-            <div className="text-[80px] font-sf lg:text-[100px] font-extrabold">{minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}</div>
+            <div className="text-[50px] font-sf lg:text-[70px] font-extrabold">{minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}</div>
             <div className="flex relative group">
               <button className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 " onClick={toggleDropdown}><svg className="opacity-70 hover:opacity-100 delay-300" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 9.5625C9.46599 9.5625 9.84375 9.18474 9.84375 8.71875C9.84375 8.25276 9.46599 7.875 9 7.875C8.53401 7.875 8.15625 8.25276 8.15625 8.71875C8.15625 9.18474 8.53401 9.5625 9 9.5625Z" stroke="#AAAAAA" strokeWidth="2.25" strokeLinecap="round" strokeLinejoin="round" />

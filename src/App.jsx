@@ -5,11 +5,11 @@ function App() {
   return (
     <>
       <div className="flex justify-center">
-        <div className="max-w-[1200px] ">
+        <div className="">
         <div >
           <HeroSection></HeroSection>
         </div>
-        <div className="mb-[10%]">
+        <div className="mb-[5%]">
           <TaskSection></TaskSection>
         </div>
         </div>
